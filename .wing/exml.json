@@ -1,0 +1,26 @@
+{
+  "15b8578e5c1": {
+    "path": "Login.ts",
+    "class": "Login",
+    "parentPath": "resource/eui_skins/PanelSkin.exml"
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "globalAdsorbEnable": true
+  },
+  "15b8bd9e9cf": {
+    "path": "Scene\\CreateAgent.ts",
+    "class": "CreateAgent",
+    "parentPath": ""
+  },
+  "15b8c0df45c": {
+    "path": "Scene\\AgentFinancialRecord.ts",
+    "class": "AgentFinancialRecord",
+    "parentPath": ""
+  },
+  "15b8c13b2c5": {
+    "path": "Scene\\AgentManager.ts",
+    "class": "AgentManager",
+    "parentPath": ""
+  }
+}

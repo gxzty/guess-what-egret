@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FinancialRecordItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image x="0" y="0" source="financial_record_bg_png" />
+    <e:Label id="idLabel" text="Label" x="99.04" y="43.96" anchorOffsetX="0" width="182" anchorOffsetY="0" height="43"
+             textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="receiverLabel" text="Label" x="480" y="43.96" anchorOffsetX="0" width="201" anchorOffsetY="0"
+             height="43" textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="countLabel" text="Label" x="177.5" y="107" anchorOffsetX="0" width="182" anchorOffsetY="0" height="43"
+             verticalAlign="middle" textColor="0xff772e" />
+    <e:Label id="afterChargeLabel" text="Label" x="521.96" y="107" anchorOffsetX="0" width="182" anchorOffsetY="0"
+             height="43" verticalAlign="middle" textColor="0xff772e" />
+    <e:Label id="chargeTime" text="Label" x="177.5" y="179.64" anchorOffsetX="0" width="479.33" anchorOffsetY="0"
+             height="43" verticalAlign="middle" textColor="0xbbbbbb" />
+</e:Skin>

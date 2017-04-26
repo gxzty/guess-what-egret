@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AgentFinancialRecordSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15b8c0df45c"></w:Config>
+	<e:Rect height="1184" x="0" y="96" width="720" fillColor="0xf5f5f5" />
+	<e:Group id="title" width="720" height="96" x="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect width="720" height="96" x="0" y="0" scaleX="1" scaleY="1" fillColor="0xFF772E" />
+		<e:Button id="leftBtn" label="" scaleX="1" scaleY="1" x="30" y="48" anchorOffsetY="16">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="back_icon_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="titleLabel" text="博艺游戏代理系统" scaleX="1" scaleY="1" anchorOffsetY="15" size="32" anchorOffsetX="128"
+		         horizontalCenter="0" verticalCenter="1" />
+		<e:Button id="rightBtn" label="" x="690" y="48" scaleX="1" scaleY="1" anchorOffsetX="36" anchorOffsetY="18">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="exit_icon_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Scroller width="720" x="0" y="96" anchorOffsetX="0" anchorOffsetY="0" height="1184">
+		<e:Group id="financialRecordGroup" anchorOffsetX="0" anchorOffsetY="0"></e:Group>
+	</e:Scroller>
+</e:Skin>

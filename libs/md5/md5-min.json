@@ -1,0 +1,11 @@
+{
+  "name": "md5-min",
+  "dependence": [
+    "core"
+  ],
+  "source": "./libs/md5/",
+  "file_list": [
+    "md5-min.d.ts",
+    "md5-min.js"
+  ]
+}

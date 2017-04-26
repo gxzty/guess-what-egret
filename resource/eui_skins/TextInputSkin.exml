@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.TextInputSkin" minHeight="40" minWidth="300"
+        states="normal,disabled,normalWithPrompt,disabledWithPrompt" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" source="button_up_png" />
+	<e:Rect height="100%" width="100%" fillColor="0xffffff" />
+	<e:EditableText id="textDisplay" textColor="0x000000" textColor.disabled="0xff0000" width="100%" height="100%"
+	                size="28" anchorOffsetX="0" verticalAlign="middle" textAlign="left" horizontalCenter="0"
+	                verticalCenter="0" />
+	<e:Label id="promptDisplay" verticalCenter="0" width="100%" height="100%" size="28" touchEnabled="false"
+	         includeIn="normalWithPrompt,disabledWithPrompt" textColor="0xbbbbbb" horizontalCenter="0"
+	         verticalAlign="middle" textAlign="left" />
+</e:Skin>

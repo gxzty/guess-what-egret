@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChoseAccountToChargeItem" width="720" height="413" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image x="0" y="0" source="agent_manager_item_bg_png" />
+    <e:Button id="chargeBtn" label="" x="280" y="331">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="charge_btn_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Label id="idLabel" text="Label" x="102.04" y="27.03" anchorOffsetX="0" width="182" anchorOffsetY="0" height="43"
+             textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="wechatLabel" text="Label" x="125.96" y="93.96" anchorOffsetX="0" width="182" anchorOffsetY="0"
+             height="43" textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="provinceLabel" text="Label" x="125.96" y="160.46" anchorOffsetX="0" width="182" anchorOffsetY="0"
+             height="43" textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="fullNameLabel" text="Label" x="153" y="231.97" anchorOffsetX="0" width="182" anchorOffsetY="0"
+             height="43" textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="accountLabel" text="Label" x="479" y="31.59" anchorOffsetX="0" width="182" anchorOffsetY="0"
+             height="43" textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="qqLabel" text="Label" x="456.96" y="93.96" anchorOffsetX="0" width="182" anchorOffsetY="0" height="43"
+             textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="cityLabel" text="Label" x="456.96" y="160.46" anchorOffsetX="0" width="182" anchorOffsetY="0"
+             height="43" textColor="0xbbbbbb" verticalAlign="middle" />
+    <e:Label id="balanceLabel" text="Label" x="460" y="231.97" anchorOffsetX="0" width="182" anchorOffsetY="0"
+             height="43" textColor="0xff772e" verticalAlign="middle" />
+</e:Skin>
