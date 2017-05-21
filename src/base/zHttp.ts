@@ -1,7 +1,7 @@
 class zHttp {
     private static m_instance: zHttp = null;
-    private SERVER_ADDRESS: string = 'http://192.168.1.211/mj_club/public/';
-    //private SERVER_ADDRESS: string = 'http://121.43.191.130/agent/login';
+    private SERVER_ADDRESS: string = "http://127.0.0.1";
+    private PORT: number = 1992;
     //private SERVER_ADDRESS: string = 'http://www.posttestserver.com/';
     //private SERVER_ADDRESS: string = 'http://httpbin.org/';
     public constructor() {

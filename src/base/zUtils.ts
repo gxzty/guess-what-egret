@@ -16,6 +16,9 @@ class zUtils {
 		//console.log(i);
 		i.text = "";
 	}
+	public static log(m) {
+		console.log(m);
+	}
 	public constructor() {
 	}
 }

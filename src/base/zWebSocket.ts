@@ -49,17 +49,19 @@ class zWebSocket {
 
 
 	private onReceiveMessage(e:egret.Event) {
-		let msg:Socket = JSON.parse(this.sock.readUTF());
 		console.log("onReceiveMessage");
+		zUtils.log(JSON.parse(this.sock.readUTF()));
+		let msg:Socket = JSON.parse(this.sock.readUTF());
 		console.log(msg);
 		let _data:Object = msg['data'];
 		switch (msg['mCmd']) {
 			case zDefine.wsLogin.MAINCMD:
 				switch (msg['sCmd']) {
 					case zDefine.wsLogin.LOGIN:
-						UserObject.setUsername(_data['username']);
-						UserObject.setLevel(_data['level']);
-						UserObject.setScore(_data['score']);
+						zUtils.log(msg);	
+						// UserObject.setUsername(_data['username']);
+						// UserObject.setLevel(_data['level']);
+						// UserObject.setScore(_data['score']);
 						break;
 					case zDefine.wsLogin.REGEDIT:
 						break;
